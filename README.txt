@@ -45,15 +45,7 @@ make distcheck # Use Makefile to build and test a tarball to distribute
 
 // On the end-user’s system: To install this run this from ubuntu terminal
 
-./configure # Generate Makefile from Makefile.in
-make # Use Makefile to build the program
-make install # Use Makefile to install the program
+./configure # Generate Makefile from Makefile.in  // if you want to install in this location ./configure --prefix=/home/alamgir/Documents/cpptest/build/end-user-system/helloworld-0.1/execution
 
-
-./configure # Generate Makefile from Makefile.in
-make # Use Makefile to build the program
-make install # Use Makefile to install the program
-
-./configure # Generate Makefile from Makefile.in
 make # Use Makefile to build the program
 make install # Use Makefile to install the program
